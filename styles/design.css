@@ -259,8 +259,8 @@ nav {
     gap: 12px;
 }
 
-.person-image img {
-    border-radius: 50px;
+.image-img {
+    border-radius: 900px;
 }
 
 /* footer section  */
