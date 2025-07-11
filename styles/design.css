@@ -12,8 +12,8 @@ nav{
     justify-content: space-between;
     color: blue;
     padding-top: 40px;
-    padding-left: 65px;
-    padding-right: 65px;
+    padding-left: 80px;
+    padding-right: 80px;
     margin: 0 auto;
 
 }
@@ -24,7 +24,8 @@ nav{
 
 .logo-design{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 35px;
+    font-weight: bolder;
 }
 
 .btn-design{
@@ -35,4 +36,12 @@ nav{
     background-color: blue;
     color: white;
 
+}
+
+.tamplate{
+    text-align: center;
+}
+
+.tamplate-size{
+    font-size: 45px;
 }
