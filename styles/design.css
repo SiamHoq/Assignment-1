@@ -29,12 +29,14 @@ nav{
 }
 
 .btn-design{
-    font-size: 20px;
+    font-size: 15px;
     height: 48px;
     width: 132px;
     border-radius: 5px;
     background-color: blue;
     color: white;
+    padding: 0 20px;
+    border: none;
 
 }
 
@@ -44,4 +46,78 @@ nav{
 
 .tamplate-size{
     font-size: 45px;
+}
+
+/* banner-design */
+.banner-boss{
+
+}
+.banner{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0 70px;
+}
+.seeaction{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.poke{
+    font-size: 24px;
+    color: grey
+}
+
+/* user views */
+.view-section{
+    text-align: center;
+    background-color: rgba(92, 97, 95, 0.29);
+    /* margin: 0 aut;/ */
+    margin-top: 50px;
+    margin-left: 420px;
+    margin-right: 420px;
+    padding: 50px 80px;
+    border-radius: 10px;
+    
+}
+.user{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    
+}
+.views{
+    font-weight: bold;
+    font-size: 60px;
+    color: blue;
+}
+.small-text{
+    font-size: 20px;
+    color: rgba(162, 157, 157, 0.922);
+}
+
+.ask{
+
+}
+???////
+
+
+.stars{
+    display: flex;
+}
+.card{
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card-section{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.card-sec{
+    text-align: center;
 }
