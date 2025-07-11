@@ -88,102 +88,177 @@ nav {
 }
 
 /* banner-design */
-.banner-boss{
+.banner-boss {
+    width: 1140px;
+    height: 328px;
+    margin: 0px auto;
+}
 
-}
-.banner{
+.banner {
     display: flex;
-    text-align: center;
-    justify-content: space-around;
-    padding: 0 70px;
+    justify-content: space-between;
 }
-.seeaction{
+
+.seeaction {
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
-.poke{
+.poke {
     font-size: 24px;
-    color: grey
+    color: rgba(37, 36, 50, 0.5);
 }
 
-/* user views */
-.view-section{
-    text-align: center;
-    background-color: rgba(92, 97, 95, 0.29);
-    /* margin: 0 aut;/ */
-    margin-top: 50px;
-    margin-left: 420px;
-    margin-right: 420px;
-    padding: 50px 80px;
-    border-radius: 10px;
-    
-}
-.user{
+.action {
     display: flex;
-    justify-content: space-around;
-    text-align: center;
-
-    
+    flex-direction: column;
+    justify-content: center;
+    gap: 23px;
 }
-.views{
-    font-weight: bold;
-    font-size: 60px;
+
+.action p {
+    font-size: 24px;
+}
+
+.action img {
+    border-radius: 48px;
+}
+
+/* Productive user section */
+.view-section {
+    width: 1140px;
+    height: 306px;
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    margin: 116px auto;
+    padding: 50px 80px;
+}
+
+.view-section h1 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.user {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.views {
+    font-size: 80px;
+    font-weight: 800;
     color: blue;
 }
-.small-text{
+
+
+/* Card Section */
+
+.small-text {
     font-size: 20px;
-    color: rgba(162, 157, 157, 0.922);
-}
-
-.ask{
-
+    color: rgba(0, 0, 0, 0.5);
 }
 
 
 
-.stars{
+.stars {
     display: flex;
 }
-.card{
+
+.card {
     border: 2px solid black;
     padding: 30px;
     border-radius: 10px;
 }
 
-.card-section{
+.card-section {
     display: flex;
     gap: 20px;
     text-align: center;
 }
 
-.card-sec{
+.card-sec {
     text-align: center;
 }
 
-/* footer section */
-.last-part{
-    text-align: center;
-}
-.all, .kkk{
+
+
+
+/* Get in Touch Section */
+.touch-section {
+    margin: 0px auto;
+    width: 1140px;
+    height: 632px;
     display: flex;
-    gap: 15px;
-    color: grey;
-    text-align: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* form sec */
+.touch-section h1 {
+    font-size: 97px;
+}
 
-
-form{
-    padding: 130px 380px;
+.form {
+    width: 500px;
+    height: 490px;
     display: flex;
-    gap: 100px;
+    flex-direction: column;
+    gap: 19px;
 }
 
-.column{
-    width: 50%;
+.form label {
+    font-size: 18px;
 }
-.section-title{
 
+.form input {
+    font-size: 18px;
+    padding: 20px 32px;
+    border-radius: 10px;
+}
+
+.form textarea {
+    padding: 20px 32px;
+    border-radius: 10px;
+}
+
+
+/* card section  */
+.person-section {
+    width: 1140px;
+    height: 342px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.person-section-heading h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.person-section-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.person-section-card {
+    background-color: white;
+    width: 365px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 14px;
+}
+
+.person-image {
+    display: flex;
+    gap: 12px;
+}
+
+.person-image img {
+    border-radius: 50%;
 }
