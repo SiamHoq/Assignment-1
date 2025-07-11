@@ -121,3 +121,14 @@ nav{
 .card-sec{
     text-align: center;
 }
+
+/* footer section */
+.last-part{
+    text-align: center;
+}
+.all, .kkk{
+    display: flex;
+    gap: 15px;
+    color: grey;
+    text-align: center;
+}
